@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eventos Tech Girls</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logoDetails">
+        <img src="./assets/images/logo.png" class="logo" alt="logo do site tech girls">
+        <a href="./index.html">Tech Girls</a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Conheça sobre nós</a></li>
+          <li><a href="#values">Valores</a></li>
+          <li><a href="#event">Inscreva-se</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <a name="home"></a>
+  <section class="homepage">
+    <div class="container">
+      <div class="contentLeftHome">
+        <p class="textHomePage">Eventos de Tecnologias</p>
+        <p class="textDescriptionHomePage">Encontre eventos online e presenciais sobre tecnologia para a inclusão de
+         <strong>mulheres cis e trans</strong></p>
+         <a href="#event" class="btn">Marque sua presença</a>
+      </div>
+      <div class="contentRigthtHome">
+        <img src="./assets/images/woman.svg" class="imageHomepage" alt="desenho de uma mulher pulando feliz">
+      </div>
+    </div>
+  </section>
+
+  <a name="about"></a>
+  <section class="section_about">
+  <article class="container about">
+      <iframe width="600" height="315" src="https://www.youtube.com/embed/Qq9h2vVBZmQ?si=VoBGtx4BI5N2mrLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   
+      <p class="text_about">Disponibilizamos dicas de eventos, palestras para melhorar suas habilidades.</br>
+        Todo semana disponibilizamos vídeos sobre o assunto que vamos falar na palestra e no grupo de conversa.</br>
+        Aberto para público a partir de 16 anos. </br>
+      </p>
+  </section>
+
+  <a name="values"></a>
+  <section class="section_values">
+    <h4>O que fazemos</h4>
+    <div class="values">
+    <div>
+      <img src="./assets/images/slide3.jpg" class="slide_image" alt="">
+      <p class="section_values_text">Ensinamos uma para outras</p>
+    </div>
+    <div>
+      <img src="./assets/images/slide2.jpg" class="slide_image" alt="">
+      <p class="section_values_text">Aprende sobre tendências de tecnologias</p>
+    </div>
+    <div>
+      <img src="./assets/images/slide-image.jpg" class="slide_image" alt="">
+      <p class="section_values_text">Fazemos palestras sobre assuntos de soft skills e hard skills</p>      
+    </div>
+  </div>
+  </section>
+
+  <a name="event"></a>
+  <section>
+    <div class="container section_form">
+      <h4>Inscreva para o mês de <span id="month"></span></h4>
+      <div class="message_send_data"></div>
+      <input type="text" placeholder="Digite seu nome" id="name">
+      <input type="text" placeholder="Digite seu sobrenome" id="lastname">
+      <input type="email" placeholder="Digite seu email" id="email">
+      <select name="place" id="weekend">
+        <option value="sabado">Sábado</option>
+      </select>
+      <select name="place" id="place">
+        <option value="sorocaba">R. Antônio Joaquim Santana - Jardim Maria do Carmo, Sorocaba - SP</option>
+        <option value="saopaulo">Av. Pedro Álvares Cabral - Vila Mariana, São Paulo - SP</option>
+      </select>
+      <div class="image_map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14638.78178084184!2d-47.4468849!3d-23.4714477!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf5ff803606b31%3A0xb0bec34df5cd8aff!2sParque%20das%20%C3%81guas%20%22Maria%20Barbosa%20Silva%22!5e0!3m2!1sen!2sbr!4v1709925715801!5m2!1sen!2sbr" width="700" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="btnSubmit">
+        <a class="btn">Cadastrar</a>
+      </div>
+    </div>
+  </section>
+  <footer class="footer_message">
+    <div class="container">
+      <p>Criado por Angélica Shigematsu - apenas para fins didáticos</p>
+      <p>&copy;2024. Todos os direitos reservados. Imagens pegos 
+        <a href="https://iconscout.com/free-icon/woman-999" class="colorWhite">IconsCout</a> 
+        e 
+        <a href="https://www.freelogodesign.org/" class="colorWhite">FreeLogo</a>
+      </p>
+    </div>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+</html>
