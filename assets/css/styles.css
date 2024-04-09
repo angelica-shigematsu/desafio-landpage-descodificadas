@@ -104,12 +104,17 @@ h4 {
 .imageHomepage {
   display: flex;
   justify-content: flex-end;
-  width: 200%;
+  width: 100%;
 }
 
 .image_map {
   display: flex;
   justify-content: center;
+}
+
+iframe {
+  width: 700px;
+  height: 400px;
 }
 
 input, select {
