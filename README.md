@@ -15,9 +15,18 @@
 | Mapa e formulário |  <ul> <li> Adicionar mapa de localização </li> <li> Formulário para coletar cadastro </li> </ul> |<img src="./assets/images/forms.png"> |
 | Rodapé | <ul> <li> Rodapé com a frase criado por "seunome" - apenas para fins didáticos </li> </ul> | <img src="./assets/images/footer.png"> |
 
-## Desafio proposto por:
-- <a href="https://descodificadas.com.br/">Descodificadas</a>
-  
+</br>
+
+## 👩🏻‍🏫 Desafio proposto por:
+- <a href="https://descodificadas.com.br/" target="_blank">Descodificadas</a>
+
+</br>
+
+## 📽️ Deploy das Telas:
+- <a href="https://angelica-shigematsu.github.io/desafio-landpage-descodificadas/" target="_blank">Landing page</a>
+
+</br>
+
 ## 👩🏻‍💻 Desenvolvida por: 
 - Angélica Shigematsu
 
