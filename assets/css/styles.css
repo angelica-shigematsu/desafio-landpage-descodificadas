@@ -2,6 +2,7 @@
   --colorPrincipal: #f1eee7;
   --colorSecond: #31304D;
   --colorThird: #F3B664;
+  --colorBlack: #191919;
 }
 * {
   margin: 0;
@@ -19,7 +20,7 @@ a {
   flex-direction: row;
   align-items: center;
   padding: 5% 0 5%;
-  gap: 30px;
+  gap: 80px;
   font-size: 1.3em;
   line-height: 2em;
   height: 90vh;
@@ -33,7 +34,7 @@ a {
   padding: 1%;
   width: 20%;
   font-size: 1.2em;
-  tex-align: center;
+  text-align: center;
 }
 
 .btnSubmit {
@@ -113,7 +114,7 @@ h4 {
 }
 
 iframe {
-  width: 700px;
+  width: 1000px;
   height: 400px;
 }
 
@@ -127,11 +128,6 @@ input, select {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-}
-
-li {
-  list-style: none;
-  margin-top: -10%;
 }
 
 .logo {
@@ -152,21 +148,32 @@ strong {
   background-color: var(--colorPrincipal);
 }
 
-.section_values, .values {
-  background-color: var(--colorThird);
+.section_values, .values, .section_values_text {
+  color: white;
+  background-color: var(--colorBlack); 
 }
 
 .section_values_text {
+  margin-bottom: 4%;
   border:  3px solid var(--colorSecond);
   padding: 2%;
   text-align:  center;
 }
 
 .section_form {
+  background-color: var(--colorPrincipal);
   display: flex;
   flex-direction: column;
   width: 40%;
   padding-bottom: 5%;
+}
+
+.section_about_li{
+  margin: 2%;
+}
+
+.section_event_form {
+  background-color: var(--colorPrincipal);
 }
 
 .slide_image {
@@ -184,18 +191,17 @@ strong {
   width: 60%;
 }
 
-.text_about {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-ul {
+.menu {
   display: flex;
   flex-direction: row;
   align-items: center;
   list-decoration: none;
   gap: 5vw;
+}
+
+.menu li {
+  list-style: none;
+  margin-top: -10%;
 }
 
 .values {
