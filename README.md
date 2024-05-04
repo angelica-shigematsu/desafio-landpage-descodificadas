@@ -9,7 +9,8 @@
 | Componente  | Descrição | Imagem do Site |
 | ------------- | ------------- | -------------|
 | Logo  | <ul> <li> Criar Logo </li> </ul> | <img src="./assets/images/logo.png"/> |
-| Homepage | <ul> <li> Menu </li> <li> Título destacado sobre o assunto do site com imagem de fundo </li> <li> Trecho de texto com plano de fundo colorido  </li>  <li> Botão com link interno ou externo </br> </ul> |  <img src="./assets/images/homepage.png"> |
+| Homepage | <ul> <li> Título destacado sobre o assunto do site com imagem de fundo </li> <li> Trecho de texto com plano de fundo colorido  </li>  <li> Botão com link interno ou externo </br> </ul> |  <img src="./assets/images/homepage.png"> |
+| Menu | Menu responsivo | <img src="./assets/images/menu.png"> |
 | Seção | <ul> <li> Galeria com imagens com descrição (pelo menos 3 imagens) </li> </ul> | <img src="./assets/images/imagem.png"> |
 | Vídeo | <ul> <li> Adicionar pelo menos um vídeo </li> </ul> | <img src="./assets/images/video.png"> |
 | Mapa e formulário |  <ul> <li> Adicionar mapa de localização </li> <li> Formulário para coletar cadastro </li> </ul> |<img src="./assets/images/forms.png"> |
