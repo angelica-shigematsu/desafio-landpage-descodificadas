@@ -53,10 +53,7 @@
 
   nav {
     background-color: var(--colorPrincipal);
-    width: 40%;
-    padding-right: 6%;
-    display: none;
-
+    height: 20%;
   }
 
   .slide_image {
@@ -83,22 +80,23 @@
     font-size: 1.4em;
   }
 
-  ul {
-    background-color: var(--colorPrincipal);
-    padding-top: 6%;
-    flex-direction: column;
-  }
-
   .values {
     flex-direction: column;
     height: 120vh;
     padding: 10% 0 10%;
   }
+  .logo {
+    visibility: hidden;
+  }
+  .logoDetails {
+    margin-top: -15%;
+    font-size: 1.4em;
+  }
+}
 
   @media (max-width: 740px)  {
     body{
       font-size: 0.8em;
     }
   }
-}
 
