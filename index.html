@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./assets/css/styles.css">
   <link rel="stylesheet" href="./assets/css/mobile.css">
   <link rel="stylesheet" href="./assets/css/menu.css">
+  <link rel="stylesheet" href="./assets/css/carrossel.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <script src="./jqueryMenu.js"></script>
@@ -132,6 +133,65 @@
       </div>
     </div>
   </section>
+  <section>
+    <div class="carousel-container">
+      <h2>Depoimentos</h2>
+      <ul class="carousel my-carousel">
+        <input class="carousel__activator" type="radio" id="A" name="activator" checked="checked"/>
+        <input class="carousel__activator" type="radio" id="B" name="activator"/>
+        <input class="carousel__activator" type="radio" id="C" name="activator"/>
+        <input class="carousel__activator" type="radio" id="D" name="activator"/>
+        <input class="carousel__activator" type="radio" id="E" name="activator"/>
+        <div class="carousel__controls">
+          <label class="carousel__control carousel__control--backward" for="D"></label>
+          <label class="carousel__control carousel__control--forward" for="B"></label>
+        </div>
+        <div class="carousel__controls">
+          <label class="carousel__control carousel__control--backward" for="A"></label>
+          <label class="carousel__control carousel__control--forward" for="C"></label>
+        </div>
+        <div class="carousel__controls">
+          <label class="carousel__control carousel__control--backward" for="B"></label>
+          <label class="carousel__control carousel__control--forward" for="D"></label>
+        </div>
+        <div class="carousel__controls">
+          <label class="carousel__control carousel__control--backward" for="C"></label>
+          <label class="carousel__control carousel__control--forward" for="A"></label>
+        </div>
+        <div class="carousel__controls">
+          <label class="carousel__control carousel__control--backward" for="D"></label>
+          <label class="carousel__control carousel__control--forward" for="A"></label>
+        </div>
+        <li class="carousel__slide">
+          <p> Não tenha medo de ser ambiciosa e perseguir seus sonhos na área de tecnologia. Acredite em seu potencial e persista em seus objetivos</p>
+          <h4>Karla Sofia</h4>
+          <img src="./assets/images/girl1.jpg" title="Daniel Xavier" alt="mulher parda sorrindo usando oculos" class="card_image">
+        </li>
+        <li class="carousel__slide">
+          <p>Os erros fazem parte do processo de aprendizado. Não desanime se algo não der certo na primeira tentativa. Continue tentando, aprimorando suas habilidades e buscando novas soluções.</p>
+          <h4>Manuela Paula</h4>
+          <img src="./assets/images/girl2.jpg" title="Andrea Piacquadio" alt="mulher loira com cabelo comprido usando oculos escuros" class="card_image">
+        </li>
+        <li class="carousel__slide">
+          <p>Esses eventos de entrevistas com mulheres inspiradoras na tecnologia, discutindo suas carreiras, desafios e conquistas</p>
+          <h4>Tânia Laura</h4>
+          <img src="./assets/images/girl3.jpg" title="Christina Morillo" alt="mulher sorrindo com cabelo curto" class="card_image">
+        </li>
+        <li class="carousel__slide">
+          <p>É uma comunidade indispensável para qualquer desenvolvedora. Sempre encontro respostas para minhas dúvidas e ainda aprendo novas soluções e práticas recomendadas.</p>
+          <h4>Sayuri Yon</h4>
+          <img src="./assets/images/girl4.jpg" title="Foto de Ketut Subiyanto" alt="mulher asiatica com cabelo curto sorrindo" class="card_image">
+        </li>
+        <div class="carousel__indicators">
+          <label class="carousel__indicator" for="A"></label>
+          <label class="carousel__indicator" for="B"></label>
+          <label class="carousel__indicator" for="C"></label>
+          <label class="carousel__indicator" for="D"></label>
+        </div>
+      </ul>
+    </div>
+  </section>
+    
   <footer class="footer_message">
     <div class="container">
       <p>Criado por Angélica Shigematsu - apenas para fins didáticos</p>
