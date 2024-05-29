@@ -14,6 +14,7 @@
 | Seção | <ul> <li> Galeria com imagens com descrição (pelo menos 3 imagens) </li> </ul> | <img src="./assets/images/imagem.png"> |
 | Vídeo | <ul> <li> Adicionar pelo menos um vídeo </li> </ul> | <img src="./assets/images/video.png"> |
 | Mapa e formulário |  <ul> <li> Adicionar mapa de localização </li> <li> Formulário para coletar cadastro </li> </ul> |<img src="./assets/images/forms.png"> |
+| Carousel | <ul> <li> Adicionar carousel </li> </ul> | <img src="./assets/images/depoiments.png"> |
 | Rodapé | <ul> <li> Rodapé com a frase criado por "seunome" - apenas para fins didáticos </li> </ul> | <img src="./assets/images/footer.png"> |
 
 </br>
